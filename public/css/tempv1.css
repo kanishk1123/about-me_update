@@ -1,0 +1,13 @@
+*{
+    font-family: 'gilroy';
+}
+body{
+    background-color: #3e3d3d;
+}
+h1{
+    -webkit-text-stroke: 6px #982ae7;
+    font-size: 300px;
+    text-shadow: 0px 0px 200px #982ae7;
+    color: transparent;
+    font-weight: 700;
+}

@@ -1,0 +1,142 @@
+* {
+    font-family: Roboto;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 50% 15% 5% 5% 5% 5% ;
+    grid-template-rows: 48px;
+    background-color: rgba(0, 0, 255, 0);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    font-weight: 700 ;
+    font-size: 1.1vw;
+}
+#nav  img{
+   width: 2vw;
+}
+#nav #nav1  img{
+    width: 5vw;
+    margin-top: -10px;
+ }
+ #nav5{
+    background-color: #dbe12400;
+width: 124%;
+border-radius: 50px;
+height: 3em;
+animation-duration: 0.5s;
+
+ }
+ #nav5:hover{
+    background-color: #e0e1e0;
+    animation-name: sech;
+ }
+ @keyframes sech {
+   from{
+      background-color: #dbe12400;
+   }
+   to{
+      background-color: #e0e1e0;
+   }
+ }
+ #nav5 input{
+    width: 100%;
+    height: 6vh;
+    border: none;
+  background-color: transparent;
+    margin-left: 3vw;
+    padding-right: 10vw;
+ }
+ #nav5 input:focus{
+    border: 1px solid transparent;
+
+ }
+ #nav10{
+    display: flex;
+   
+    height: 2.8vw;
+    width: 12vw;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 255, 0);
+   
+ }
+ #nav10 div{
+    background-color: #b8b8b8;
+    width: 3px;
+    height: 100%;
+    margin-right: 7px;
+    border-radius: 50px;
+ }
+#nav10 button{
+    width: 90%;
+    background-color: #15c21500;
+    border: none;
+    height: 100%;
+    padding-top: 1vh;
+    align-content: center;
+    border-radius: 50px;
+}
+#nav10 button:hover{
+    background-color: #e0e1e0;
+}
+
+#userimg{
+   background-color: #878787;
+   width: 19vh;
+   height: 19vh;
+   border-radius: 50%;
+
+
+}
+#userinfo{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2vh;
+}
+#userinfo #username{
+    font-size: 3vw;
+    font-weight: 700;
+    text-transform: lowercase;
+}
+#userinfo #userid{
+    display: flex;
+align-items: center;
+margin-top: -3.5vh;
+justify-content: center;
+color: #515151;
+gap: 0.5vw;
+}
+#userinfo #userid #pinimg{
+    width: 7%;
+    height: 7%;
+    filter: grayscale(100%);
+
+}
+#userinfo #buttons{
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+    height: 6vh;
+    font-weight: 700;
+   
+}
+#userinfo #buttons .btn{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding-left:5px ;
+    border-radius: 8px;
+    padding-right: 5px;
+}
+
+#userinfo #buttons .btn:hover{
+     background-color: #c7c7c7;
+     transition-duration: 0.5s;
+}
