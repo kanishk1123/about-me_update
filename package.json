@@ -13,11 +13,12 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "http": "^0.0.1-security",
-    "mongoose": "^8.3.2",
+    "mongoose": "^8.3.4",
     "nodemailer": "^6.9.13",
-    "nodemon": "^3.1.0"
+    "tailwind": "^4.0.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.0",
     "tailwindcss": "^3.4.3"
   }
 }
